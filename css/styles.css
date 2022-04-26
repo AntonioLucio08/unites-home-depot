@@ -122,8 +122,17 @@ body {
   font-size: 10px;
 }
 
+.container .simple-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .container .simple-cards .card {
-  margin: 25px 0 5px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 25px 30px 5px 30px;
   border: none;
 }
 
@@ -139,5 +148,27 @@ body {
   font-weight: 900;
   font-size: 32px;
   cursor: pointer;
+}
+
+.container .simple-cards .card .card-body .card-sub-text {
+  margin: 0 50px;
+}
+
+.container .titulo {
+  border-bottom: 3px solid #f96302;
+}
+
+.container .row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 30px 0px 0px 0px;
+  margin-top: 50px;
+  border-top: 1pxsolid black;
+}
+
+.container .row .col {
+  margin: 30px;
 }
 /*# sourceMappingURL=styles.css.map */
