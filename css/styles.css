@@ -1,0 +1,143 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: white;
+}
+
+.container-fluid .row .col {
+  background-color: #f96302;
+  text-align: center;
+  color: white;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.settings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-right: 300px;
+}
+
+.settings .settings-p {
+  padding: 0 10px;
+  font-size: 8px;
+}
+
+.container {
+  background-color: white;
+}
+
+.container .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .navbar .container-fluid {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .navbar .container-fluid img {
+  max-width: 50px;
+  margin: 10px;
+}
+
+.container .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  font-size: 13px;
+}
+
+.container .menu .menu-li {
+  padding: 0 20px;
+}
+
+.espiners {
+  text-align: center;
+  margin: 10px;
+}
+
+.feels {
+  border: 1px solid gray;
+  border-top: 6px solid #84bc59;
+  margin-top: 50px;
+}
+
+.feels .feels-menu {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.feels .feels-menu .feels-item {
+  border: .5px solid black;
+  padding: 0 20px;
+}
+
+.feels .feels-tittle {
+  padding: 15px;
+  margin-left: 20px;
+}
+
+.feels .cardsitas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.feels .cardsitas .card {
+  margin: 80px 0 20px 70px;
+  border: none;
+}
+
+.feels .cardsitas .card .card-img-top {
+  width: 8rem;
+}
+
+.feels .cardsitas .card .card-body {
+  display: block;
+  padding: 0px !important;
+}
+
+.feels .cardsitas .card .card-body .card-text {
+  font-size: 10px;
+  margin: 10px;
+  text-align: left;
+}
+
+.feels .cardsitas .card .card-body .card-description {
+  font-size: 10px;
+}
+
+.container .simple-cards .card {
+  margin: 25px 0 5px 30px;
+  border: none;
+}
+
+.container .simple-cards .card .card-img-top {
+  width: 15rem;
+}
+
+.container .simple-cards .card .card-body {
+  padding: 0%;
+}
+
+.container .simple-cards .card .card-body .card-text {
+  font-weight: 900;
+  font-size: 32px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=styles.css.map */
